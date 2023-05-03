@@ -16,10 +16,10 @@ class RandomUserRemoteDataSource() : RandomUserDataSource {
 
         val resuls: List<RandomUserResponse> = apiResponse?.results?.map {
             RandomUserResponse(
-                firstName = it.name.first,
-                lastName = it.name.last,
-                gender = it.gender,
-                email = it.email,
+                firstName = it.name?.first ?: "",
+                lastName = it.name?.last ?: "",
+                gender = it.gender ?: "",
+                email = it.email ?: "",
             )
         }.orEmpty()
 
