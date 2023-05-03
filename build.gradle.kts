@@ -12,6 +12,9 @@ group = "com.naijab"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
+val mockkVersion = "1.13.5"
+val springmockkVersion = "4.0.2"
+
 repositories {
     mavenCentral()
     gradlePluginPortal()
@@ -26,6 +29,8 @@ dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
+    testImplementation("io.mockk:mockk:$mockkVersion")
+    testImplementation("com.ninja-squad:springmockk:$springmockkVersion")
 }
 
 tasks.withType<KotlinCompile> {
