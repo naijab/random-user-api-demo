@@ -2,12 +2,12 @@
 
 ## Requirements
 
-[x] Create simple project using SpringBoot with Kotlin (prefer) or Java.
-[x] API provide just one endpoint.
-`http://<host>:<port>/v1/users/{seed}`
-[x] Response random user from Random User API with input seed.
-[x] Response only Firstname, Lastname, Gender, E-Mail.
-[x] Push code to GitHub for assignment reviewed.
+- [x] Create simple project using SpringBoot with Kotlin (prefer) or Java.
+- [x] API provide just one endpoint.
+      `http://<host>:<port>/v1/users/{seed}`
+- [x] Response random user from Random User API with input seed.
+- [x] Response only Firstname, Lastname, Gender, E-Mail.
+- [x] Push code to GitHub for assignment reviewed.
 
 ## Command
 
