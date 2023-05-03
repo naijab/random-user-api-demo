@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class RandomuserApplication
 
 fun main(args: Array<String>) {
-	runApplication<RandomuserApplication>(*args) 
+    runApplication<RandomuserApplication>(*args)
 }
